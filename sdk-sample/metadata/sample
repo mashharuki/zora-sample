@@ -1,0 +1,11 @@
+{
+  "name": "1887 – horse",
+  "description": "https://archive.org/details/a-galloping-horse-and-rider",
+  "symbol": "1887 – horse",
+  "image": "ipfs://bafybeiggupoa4t2krjf3cqukykikeul6enqnfxqg4lmasn374zmeyjv4by",
+  "animation_url": "ipfs://bafybeiatmngyt4wwu6mla27523qk33klxopycomegris3n25y6rcqs27c4",
+  "content": {
+    "uri": "ipfs://bafybeiatmngyt4wwu6mla27523qk33klxopycomegris3n25y6rcqs27c4",
+    "mime": "video/mp4"
+  }
+}

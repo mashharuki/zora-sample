@@ -1,7 +1,7 @@
 
 import { http, createPublicClient, createWalletClient } from "viem";
 import { privateKeyToAccount } from "viem/accounts";
-import { zoraSepolia } from "viem/chains";
+import { baseSepolia } from "viem/chains";
 import * as dotenv from "dotenv";
 
 dotenv.config();
@@ -10,7 +10,7 @@ const {
   PRIVATE_KEY
 } = process.env;
  
-export const chain = zoraSepolia;
+export const chain = baseSepolia;
 
 // publicClient 
 export const publicClient = createPublicClient({

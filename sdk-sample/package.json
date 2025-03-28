@@ -14,7 +14,7 @@
     "typescript": "^5"
   },
   "dependencies": {
-    "@zoralabs/coins-sdk": "^0.0.2-sdkalpha.8",
+    "@zoralabs/coins-sdk": "^0.0.3",
     "viem": "^2.24.1"
   }
 }

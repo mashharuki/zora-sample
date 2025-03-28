@@ -4,7 +4,7 @@
     "": {
       "name": "sdk-sample",
       "dependencies": {
-        "@zoralabs/coins-sdk": "^0.0.2-sdkalpha.8",
+        "@zoralabs/coins-sdk": "^0.0.3",
         "viem": "^2.24.1",
       },
       "devDependencies": {
@@ -41,9 +41,9 @@
 
     "@types/ws": ["@types/ws@8.18.0", "", { "dependencies": { "@types/node": "*" } }, "sha512-8svvI3hMyvN0kKCJMvTJP/x6Y/EoQbepff882wL+Sn5QsXb3etnamgrJq4isrBxSJj5L2AuXcI0+bgkoAXGUJw=="],
 
-    "@zoralabs/coins": ["@zoralabs/coins@0.6.0", "", { "dependencies": { "@openzeppelin/contracts": "^5.0.2", "@openzeppelin/contracts-upgradeable": "^5.0.2" } }, "sha512-raDbm/bW7goPPmElnyu+GYyNwPmiQlTHqm6AtiWL3NLEeIH/woa7r0Oa2alR71W14DDjY2OqeoBBmyycbN5SkQ=="],
+    "@zoralabs/coins": ["@zoralabs/coins@0.6.1", "", { "dependencies": { "@openzeppelin/contracts": "^5.0.2", "@openzeppelin/contracts-upgradeable": "^5.0.2" } }, "sha512-5ecTLf/fmzKP1KjXkTMjTBSH3KOMz+2EoO6moTP1CvQmvHqmOELTZiPFAUMkxstvgoXUQ1Wpo+/rbmFsbfuwiw=="],
 
-    "@zoralabs/coins-sdk": ["@zoralabs/coins-sdk@0.0.2-sdkalpha.8", "", { "dependencies": { "@hey-api/client-fetch": "^0.8.3", "@zoralabs/coins": "^0.6.0" }, "peerDependencies": { "abitype": "^1.0.8", "viem": "^2.21.55" } }, "sha512-uKE6lrGmy3UrL63Jj6lF7oSSwcBg+WrrLQpLQj8zlhDj2IEmH2ycWaPruq3ul/yiQoUKdlSys7TLoqJZww2p/g=="],
+    "@zoralabs/coins-sdk": ["@zoralabs/coins-sdk@0.0.3", "", { "dependencies": { "@hey-api/client-fetch": "^0.8.3", "@zoralabs/coins": "^0.6.1" }, "peerDependencies": { "abitype": "^1.0.8", "viem": "^2.21.55" } }, "sha512-+UzW5NEVjMlkdF/aSg1VHQsA4HWfu6lS1YGWjCqrwNOXdAFF3BRa/PrgZWDuWFJJCe3j8G+86TTUcD7A8wDoIw=="],
 
     "abitype": ["abitype@1.0.8", "", { "peerDependencies": { "typescript": ">=5.0.4", "zod": "^3 >=3.22.0" }, "optionalPeers": ["typescript", "zod"] }, "sha512-ZeiI6h3GnW06uYDLx0etQtX/p8E24UaHHBj57RSjK7YBFe7iuVn07EDpOeP451D06sF27VOz9JJPlIKJmXgkEg=="],
 
