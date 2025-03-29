@@ -8,7 +8,7 @@ bun install
 
 To run:
 
-コインを作成する。
+## コインを作成する。
 
 ```bash
 bun run index.ts
@@ -45,5 +45,62 @@ https://gateway.pinata.cloud/ipfs/bafybeiatmngyt4wwu6mla27523qk33klxopycomegris3
 
 コンテンツ
 
-
 https://gateway.pinata.cloud/ipfs/bafybeiatmngyt4wwu6mla27523qk33klxopycomegris3n25y6rcqs27c4
+
+## コインを買う
+
+```bash
+bun buyCoin
+```
+
+以下のようになればOK!
+
+```bash
+Transaction hash: v
+Trade details: {
+  buyer: "0x51908F598A5e0d8F1A3bAbFa6DF76F9704daD072",
+  recipient: "0x51908F598A5e0d8F1A3bAbFa6DF76F9704daD072",
+  tradeReferrer: "0x0000000000000000000000000000000000000000",
+  coinsPurchased: 4365806741071640813611091n,
+  currency: "0x4200000000000000000000000000000000000006",
+  amountFee: 100000000000000n,
+  amountSold: 9900000000000000n,
+}
+```
+
+## コインを売却する
+
+```bash
+bun sellCoin
+```
+
+以下のようになればOK
+
+```bash
+
+```
+
+## コインのメタデータをupdateする
+
+```bash
+bun run update
+```
+
+以下のようになればOK!
+
+```bash
+Transaction hash: 0xadfa797313e7847380ed648fe2eb3eef5949e3eefd75b65fca9e0fae09c57c05
+URI updated event: {
+  eventName: "ContractURIUpdated",
+  args: undefined,
+  address: "0xb9221f2a7f392354bebd74d6e145b92a60cbc480",
+  blockHash: "0xee4e5518787b2544e3df67d68b4adcf832a5e06f3bbad37e9d359708e523a9e2",
+  blockNumber: 23745552n,
+  data: "0x",
+  logIndex: 276,
+  removed: false,
+  topics: [ "0xa5d4097edda6d87cb9329af83fb3712ef77eeb13738ffe43cc35a4ce305ad962" ],
+  transactionHash: "0xadfa797313e7847380ed648fe2eb3eef5949e3eefd75b65fca9e0fae09c57c05",
+  transactionIndex: 33,
+}
+```

@@ -4,17 +4,21 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "dev": "bun run ./src/index.ts"
+    "dev": "bun run ./src/index.ts",
+    "buyCoin": "bun run ./src/buyCoin.ts",
+    "sellCoin": "bun run ./src/sellCoin.ts",
+    "update": "bun run ./src/update.ts",
+    "fetch": "bun run ./src/fetchSingleCoin.ts"
   },
   "devDependencies": {
     "@types/bun": "latest",
     "dotenv": "^16.4.7"
   },
   "peerDependencies": {
-    "typescript": "^5"
+    "typescript": "^5.8.2"
   },
   "dependencies": {
     "@zoralabs/coins-sdk": "^0.0.3",
-    "viem": "^2.24.1"
+    "viem": "^2.24.2"
   }
 }
